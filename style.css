@@ -83,5 +83,23 @@ header{
        .hero figcaption{
         text-align: center;
       }
+       /*large about section*/
+       .about h2{
+        color:rgb(9, 67, 168) ;
+        text-align: center;
+        font-size: 3.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+    .about div{
+    text-align: center;
+    }
+    .abt{
+    display: flex;
+    justify-self: center;
+    }
+    .about article{
+        padding: 40px;
+        margin: 0 40px;
+    }
 }
 
