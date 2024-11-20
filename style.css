@@ -34,6 +34,23 @@ header{
     border-radius: 2px;
   }
   
-
-
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+    /* large header*/
+    .hidden{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;  
+      }
+      .hidden li{
+        margin: 10px 50px; 
+      }
+      .hidden a{
+        color:rgba(211, 186, 27, 0.904);
+        text-decoration: none;
+      }
+      .lines{
+        display: none;
+      }
+}
 
