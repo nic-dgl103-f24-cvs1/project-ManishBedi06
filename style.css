@@ -187,5 +187,35 @@ footer p{
         text-align: center;
         margin: 41%;
     }
+    /*large footer*/
+    .a{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+       
+    }
+    .a p{
+        padding: 40px;
+        font-size:large;
+    }
+    .img{
+        display: none;
+    }
+    footer nav{
+        border-bottom: 1px solid black;
+        background-color: lightblue;
+        padding: 10px;
+    }
+    footer li{
+        display: flex;
+        justify-content:center;
+        padding: 10px 70px;
+        margin:5px 50px;
+    }
+    footer p{
+        border: none;
+        text-align: center;
+        padding :10px;
+    }
 }
 
