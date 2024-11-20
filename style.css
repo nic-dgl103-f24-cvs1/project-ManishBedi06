@@ -78,6 +78,10 @@ header{
       }
       .lines{
         display: none;
+      }  
+       /* large hero section*/
+       .hero figcaption{
+        text-align: center;
       }
 }
 
