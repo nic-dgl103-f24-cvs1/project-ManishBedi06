@@ -101,6 +101,27 @@ header{
     border-radius: 5px;
     margin: 25%;
 }
+/*footer*/
+.a{
+    display: none;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 20px 0;
+}
+footer li{
+    padding: 5px;
+}
+.img{
+    display: block;
+}
+footer p{
+    border-top: 2px solid black;
+    padding: 20px 0;
+}
+
   
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
