@@ -49,7 +49,7 @@ The speed in pingdom  (https://tools.pingdom.com/) is 71 performance grade.
 
 # WEBSITE CONTENT
 
-**HOME PAGE**
+**INDEX**
 
 HEADER
 - LOGO
@@ -81,6 +81,7 @@ CALL-TO-ACTION SECTION
 FOOTER SECTION 
 - IMAGE
 - PARAGRAPH
+- MAP
 - NAVIGATION
 - COPYRIGHT NOTICE:
 
@@ -88,14 +89,14 @@ FOOTER SECTION
 **ABOUT US PAGE**
 
 HEADER
-- same as home page
+- same as index
 
 HERO SECTION
-- HEADING
-- IMAGES
+- same as index
 
 HISTORY SECTION
 - HEADING
+- YOUTUBE LINK
 - PARAGRAPH
 - IMAGES
 
@@ -104,13 +105,13 @@ CONTACT SECTION
 - PARAGRAPHS
 
 FOOTER SECTION
-- same as home page
+- same as index
 
 
 **FACILITY PAGE**
 
 HEADER
-- same as home page
+- same as index
 
 FACILITY SECTION
 - IMAGES
@@ -118,7 +119,7 @@ FACILITY SECTION
 - PARAGRAPHS
 
 CALL-TO-ACTION
-- same as home page
+- same as index
 
 FOOTER
-- same as home page
+- same as index
