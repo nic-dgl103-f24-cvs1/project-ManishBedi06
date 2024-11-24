@@ -313,4 +313,11 @@ footer iframe{
       .history p{
        padding: 10px 300px;
       }
+      /* large contact-us*/
+     .contact-us div{
+      text-align: center;
+     }
+     .contact-us p{
+      font-size: larger;
+     }
 }
