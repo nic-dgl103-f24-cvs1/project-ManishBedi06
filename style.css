@@ -158,6 +158,34 @@ footer iframe{
 
 /*hero*/
 /*same as indexpage*/
+/*history*/
+.history h2{
+  text-align: center;
+  color: rgb(9, 67, 168) ;
+  padding:  0 40px;
+}
+.history iframe{
+  width: 100%;
+  height: 300px;
+}
+.history div{
+  background-color: lightblue;
+  text-align: center;
+  padding: 30px 10px;
+}
+.history p{
+  padding: 20px 10px;
+   transition: width 2s;;
+}
+.history h4, h5{
+  color: rgb(9, 67, 168);
+  margin: 0;
+  padding: 5px;
+}
+.history div img:hover{
+  transform: scale(1.1);
+  border-radius: 30px;
+}
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
