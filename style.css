@@ -300,4 +300,12 @@ footer iframe{
 
      /* large hero*/
      /*same as indexpage*/
+     
+     /* large history*/
+     .history iframe{
+      height: 600px;
+      }
+      .history p{
+       padding: 10px 300px;
+      }
 }
