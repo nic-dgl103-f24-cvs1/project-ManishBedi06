@@ -186,6 +186,11 @@ footer iframe{
   transform: scale(1.1);
   border-radius: 30px;
 }
+/*contact-us*/
+.contact-us div{
+  padding: 20px;
+  text-align: center;
+}
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
@@ -300,7 +305,7 @@ footer iframe{
 
      /* large hero*/
      /*same as indexpage*/
-     
+
      /* large history*/
      .history iframe{
       height: 600px;
