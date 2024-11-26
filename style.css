@@ -62,9 +62,12 @@ header{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;;
     padding: 0 40px;
+    text-shadow: 2px 2px 4px #c4b7b7;
+
   }
   .hero img{
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   /*about section*/
   .about p{
@@ -75,6 +78,8 @@ header{
     color:rgb(9, 67, 168) ;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px #c4b7b7;
+
 }
   .about div{
     padding: 10px;
@@ -83,6 +88,10 @@ header{
   .abt img{
     width: 250px;
   }
+  .abt img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
   /*benefits section*/
 
 .benefits{
@@ -102,6 +111,7 @@ header{
     padding: 10px 35px;
     margin: 50px;
     border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*call-to-action*/
 .call-to-action{
@@ -114,7 +124,7 @@ header{
     color:rgb(9, 67, 168) ;
     padding: 10px 100px;
     text-align: center;
-
+    text-shadow: 2px 2px 8px whitesmoke;
 }
 .call-to-action a{
     color:lightblue ;
@@ -123,6 +133,7 @@ header{
     text-decoration: none;
     border-radius: 5px;
     margin: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*footer*/
 .a{
@@ -164,9 +175,11 @@ footer iframe{
   text-align: center;
   color: rgb(9, 67, 168) ;
   padding:  0 40px;
+  text-shadow: 2px 2px 4px #c4b7b7;
+
 }
 .history iframe{
-  width: 100%;
+  width: 99.7%;
   height: 300px;
 }
 .history div{
@@ -246,6 +259,9 @@ footer iframe{
         padding: 40px;
         margin: 0 20px;
       }
+      .abt p{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
     /*large benefits section*/
       .benefits a{
         text-decoration: none;
@@ -275,7 +291,9 @@ footer iframe{
         display: flex;
         justify-content: space-between;
         padding: 30px;
-       
+    }
+    .a img{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .a p{
         padding: 40px;
@@ -283,6 +301,7 @@ footer iframe{
     }
     .img{
         display: block;
+       
     }
     footer nav{
         border-bottom: 1px solid black;
