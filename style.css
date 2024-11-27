@@ -397,6 +397,11 @@ color: black;
      /*large header*/
      /*same as index page*/
 
+      /*table*/
+      .table{
+        padding: 20px 200px ;
+       }
+
 
 
 }
