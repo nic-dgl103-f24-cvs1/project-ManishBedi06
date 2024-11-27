@@ -212,6 +212,16 @@ footer iframe{
 /* same as indexpage*/
 
 
+
+/*====reservationpage===*/
+
+ /*header*/
+/*same as indexpage*/
+
+
+
+
+
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
   /*====large index page===*/
@@ -351,4 +361,6 @@ footer iframe{
      
       /*large footer*/
      /*same as index page*/
+
+
 }
