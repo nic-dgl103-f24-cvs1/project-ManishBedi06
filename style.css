@@ -1,7 +1,6 @@
 /*-------- GLOBAL STYLES ---------*/
  p{
     font-family:  'Times New Roman', Times, serif;
-    font-size: small;
  } 
  body{
   margin: 0;
@@ -95,8 +94,9 @@ header{
   /*benefits section*/
 
 .benefits{
-    background-color:rgb(43, 141, 190);
+    background-color:lightblue;
     padding: 40px;
+    margin: 20px 0;
 }
 .benefits h3{
     margin-bottom: 40px;
@@ -106,8 +106,8 @@ header{
 }
 .benefits a{
     text-decoration: none;
-    color: rgb(9, 67, 168);
-    background-color:lightblue;
+    color: lightblue;
+    background-color:black;
     padding: 10px 35px;
     margin: 50px;
     border-radius: 3px;
@@ -139,12 +139,6 @@ header{
 .a{
     display: none;
 }
-footer nav{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding: 10px 0;
-}
 footer li{
     padding: 5px;
 }
@@ -157,11 +151,17 @@ footer p{
     text-align: center;
 }
 footer ul{
-  padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px 40%;
 }
 footer iframe{
-  width: 100%;
+  width: 60%;
   height: 200px;
+  padding: 20px 80px;
 }
 /*====aboutpage===*/
 /*header*/
@@ -351,17 +351,14 @@ h1{
         font-size:large;
     }
     .img{
-        display: block;
-       
-    }
-    footer nav{
-        border-bottom: 1px solid black;
-        background-color: lightblue;
-        padding: 10px;
+        display: block; 
     }
     footer ul{
       display: flex;
       flex-direction: row;
+      border-bottom: 1px solid black;
+        background-color: lightblue;
+        padding: 10px;
     }
     footer p{
         border: none;
@@ -372,8 +369,9 @@ h1{
       padding: 0 90px;
    }
     footer iframe{
-    width: 100%;
+    width: 70%;
     height: 300px;
+    padding: 0 15%;
     }
    /*==== large aboutpage===*/
 
