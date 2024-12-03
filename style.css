@@ -1,0 +1,431 @@
+/*-------- GLOBAL STYLES ---------*/
+ p{
+    font-family:  'Times New Roman', Times, serif;
+ } 
+ body{
+  margin: 0;
+ }
+/*====index page===*/
+/*HEADER*/
+header{
+    background-color:black;
+    color:rgba(211, 186, 27, 0.904);;
+    position: relative;
+}
+.hidden{
+    display: none;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  nav ul a{
+    color:rgba(211, 186, 27, 0.904);;
+    text-decoration: none;
+  }
+
+  header img{
+    padding: 10px 0 10px 10px;
+  }
+
+  .show-items {
+    display: flex;
+  }
+
+  .toggle {
+    position: absolute;
+    top: 20px;
+    right:20px;
+  }
+  
+  /* .lines {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50%;
+    margin-top: 15px;
+  }
+  .lines span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color:rgba(211, 186, 27, 0.904);
+    border-radius: 2px;
+  } */
+  /*hero section*/
+  .hero h1{
+    color:rgb(9, 67, 168) ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;;
+    padding: 0 40px;
+    text-shadow: 2px 2px 4px #c4b7b7;
+
+  }
+  .hero img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  /*about section*/
+  .about p{
+    background-color:lightblue;
+    padding: 30px;
+  }
+  .about h2, h3{
+    color:rgb(9, 67, 168) ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px #c4b7b7;
+
+}
+  .about div{
+    padding: 10px;
+   text-align: center;
+  }
+  .abt img{
+    width: 250px;
+  }
+  .abt img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+  /*benefits section*/
+
+.benefits{
+    background-color:lightblue;
+    padding: 40px;
+    margin: 20px 0;
+}
+.benefits h3{
+    margin-bottom: 40px;
+    color:rgb(9, 67, 168) ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.benefits a{
+    text-decoration: none;
+    color: lightblue;
+    background-color:black;
+    padding: 10px 35px;
+    margin: 50px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*call-to-action*/
+.call-to-action{
+    border: 2px solid black;
+    height: 200px;
+    background-color: lightblue;
+}
+.call-to-action h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(9, 67, 168) ;
+    padding: 10px 100px;
+    text-align: center;
+    text-shadow: 2px 2px 8px whitesmoke;
+}
+.call-to-action a{
+    color:lightblue ;
+    background-color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*footer*/
+.a{
+    display: none;
+}
+footer li{
+    padding: 5px;
+}
+.img{
+    display: block;
+}
+footer p{
+    border-top: 2px solid black;
+    padding: 20px 0;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px 40%;
+}
+footer iframe{
+  width: 60%;
+  height: 200px;
+  padding: 20px 80px;
+}
+/*====aboutpage===*/
+/*header*/
+/*same as indexpage*/
+
+/*hero*/
+/*same as indexpage*/
+
+/*history*/
+.history h2{
+  text-align: center;
+  color: rgb(9, 67, 168) ;
+  padding:  0 40px;
+  text-shadow: 2px 2px 4px #c4b7b7;
+
+}
+.history iframe{
+  width: 99.7%;
+  height: 300px;
+}
+.history div{
+  background-color: lightblue;
+  text-align: center;
+  padding: 30px 10px;
+}
+.history p{
+  padding: 20px 10px;
+   transition: width 2s;;
+}
+.history h4, h5{
+  color: rgb(9, 67, 168);
+  margin: 0;
+  padding: 5px;
+}
+.history div img:hover{
+  transform: scale(1.1);
+  border-radius: 30px;
+}
+/*contact-us*/
+.contact-us div{
+  padding: 20px;
+  text-align: center;
+}
+/*call-to-action*/
+/* same as indexpage*/
+
+/*footer*/
+/* same as indexpage*/
+
+
+
+/*====reservationpage===*/
+
+ /*header*/
+/*same as indexpage*/
+
+/*table*/
+h1{
+    color:rgb(9, 67, 168) ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px #c4b7b7;
+}
+ #customers {
+  font-family:  'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 50px 0;
+}
+#customers td, #customers th {
+  border: 1px solid #312d2d;
+  padding: 10px;
+}
+#customers tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+#customers tr:hover {
+  background-color: #ddd;
+}
+#customers th {
+  padding: 12px 0;
+  text-align:center;
+  background-color:lightblue;
+  color: black;
+}
+/*form*/
+.form{
+  padding:10px;
+  background-color: lightblue;
+  margin: 30px 10px; 
+ }
+.input-focus:focus{
+  background-color: lightblue;
+}
+/*call-to-action*/
+/* same as indexpage*/
+
+/*footer*/
+/* same as indexpage*/
+
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  /*====large index page===*/
+    /* large header*/
+    header nav{
+      display: flex;
+    }
+    .hidden{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;  
+      }
+      .hidden li{
+        margin: 10px 50px; 
+      }
+      .hidden a{
+        color:rgba(211, 186, 27, 0.904);
+        text-decoration: none;
+      }
+      .hidden{
+        flex-direction: row;  
+      }
+      .toggle{
+        display: none;
+      }
+       /* large hero section*/
+       .hero figcaption{
+        text-align: center;
+      }
+       /*large about section*/
+       .about h2{
+        color:rgb(9, 67, 168) ;
+        text-align: center;
+        font-size: 3.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       .about div{
+       text-align: center;
+      }
+      .abt{
+       display: flex;
+       justify-self: center;
+      }
+       .about article{
+        padding: 40px;
+        margin: 0 20px;
+      }
+      .abt p{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    /*large benefits section*/
+      .benefits a{
+        text-decoration: none;
+        color: rgb(9, 67, 168);
+        background-color:lightblue;
+        padding: 10px 35px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 40%;
+    }
+    /*large call-to-action section*/
+        
+    .call-to-action{
+        height: 400px;
+    }
+    .call-to-action h3{
+        font-size:3.5rem;
+        padding: 10px 40px;
+        margin: 50px;
+    }
+    .call-to-action a{
+        text-align: center;
+        margin: 41%;
+    }
+    /*large footer*/
+    .a{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .a img{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .a p{
+        padding: 40px;
+        font-size:large;
+    }
+    .img{
+        display: block; 
+    }
+    footer ul{
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid black;
+        background-color: lightblue;
+        padding: 10px;
+    }
+    footer p{
+        border: none;
+        text-align: center;
+        padding :10px;
+    }
+    footer li{
+      padding: 0 90px;
+   }
+    footer iframe{
+    width: 70%;
+    height: 300px;
+    padding: 0 15%;
+    }
+   /*==== large aboutpage===*/
+
+     /*large header*/
+     /*same as index page*/
+
+     /* large hero*/
+     /*same as indexpage*/
+
+     /* large history*/
+     .history iframe{
+      height: 600px;
+      }
+      .history p{
+       padding: 10px 300px;
+      }
+      /* large contact-us*/
+     .contact-us div{
+      text-align: center;
+     }
+     .contact-us p{
+      font-size: larger;
+     }
+     /*large call-to-action*/
+     /*same as index page*/
+     
+      /*large footer*/
+     /*same as index page*/
+
+
+     /*==== large reservation page===*/
+     /*large header*/
+     /*same as index page*/
+
+     /* large table*/
+     .table{
+      padding: 20px 200px ;
+     }
+     /* large form*/
+     .form{
+      margin:40px 400px ;
+     }
+      /*large call-to-action*/
+     /*same as index page*/
+     
+       /*large footer*/
+     /*same as index page*/
+     
+
+
+
+
+
+
+
+     
+}
